@@ -1,0 +1,242 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:400,700";
+html {
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #333;
+  overflow-x: hidden;
+}
+
+section {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.block {
+  height: 100vh;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.block--sm {
+  height: auto;
+}
+
+.block--heading {
+  background: #f5edea;
+}
+
+.block--heading h1 {
+  width: 200px;
+  color: #142d31;
+  letter-spacing: 1px;
+  text-shadow: 9px 7px #f1523f;
+  font-family: Playfair Display, serif;
+  font-size: 82px;
+  line-height: 1.2;
+  transform: rotate(-5deg);
+}
+
+.block--header {
+  color: #fff;
+  color: #fff;
+  background: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/5DP9O3VZWI.jpg") center / cover;
+  flex-direction: column;
+  position: relative;
+}
+
+.block--header > * {
+  position: relative;
+}
+
+.block--header:before {
+  content: "";
+  background: #142d31e6;
+  position: absolute;
+  inset: 0;
+}
+
+.block--header h1 {
+  letter-spacing: .3px;
+  margin-bottom: 5px;
+  font-family: Playfair Display, serif;
+  font-size: 36px;
+}
+
+.block--header h5 {
+  letter-spacing: .3px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.block--header hr {
+  width: 70%;
+  border-color: #f1523f;
+}
+
+.block--header .social-links i {
+  margin: 10px;
+  font-size: 22px;
+}
+
+.block--hero-image {
+  background: url("https://s30.postimg.org/h76qo2zn5/img.jpg") center / cover;
+}
+
+.block--content {
+  text-align: center;
+  background: #f1523f;
+  flex-direction: column;
+  padding: 0 2%;
+}
+
+.block--content article {
+  color: #fff;
+  margin: 8px 0;
+}
+
+.block--content article:last-child {
+  color: #142d31;
+}
+
+.block--content article:last-child .date {
+  border-color: #142d31;
+}
+
+.block--content h5 {
+  letter-spacing: 1.5px;
+  margin: 0 0 15px;
+  font-family: Playfair Display, serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.block--content h4 {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 25px 0 0;
+  font-size: 18px;
+}
+
+.block--content .work-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.block--content .date {
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  margin: 0;
+  padding: 5px 22px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.block--content hr {
+  width: 220px;
+  height: 2px;
+  background: #fff;
+  border: 0;
+}
+
+.reverse .block--content {
+  color: #fff;
+  background: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/5DP9O3VZWI.jpg") center / cover;
+  flex-direction: column;
+  position: relative;
+}
+
+.reverse .block--content > * {
+  position: relative;
+}
+
+.reverse .block--content:before {
+  content: "";
+  background: #142d31e6;
+  position: absolute;
+  inset: 0;
+}
+
+.block--work article, .block--skills article, .block--work article:last-child, .block--skills article:last-child {
+  color: #fff;
+}
+
+.block--work article:last-child .date, .block--skills article:last-child .date {
+  border-color: #fff;
+}
+
+.block--work article hr, .block--skills article hr {
+  background: #f1523f;
+}
+
+@media only screen and (min-width: 720px) {
+  section {
+    height: 70vh;
+  }
+
+  .reverse .block:first-child {
+    order: 2;
+  }
+
+  .block {
+    height: 100%;
+    flex-basis: 50%;
+  }
+
+  .block--heading h1 {
+    font-size: 102px;
+  }
+
+  .social-links i:hover {
+    color: #f1523f;
+    cursor: pointer;
+  }
+
+  .work-link:hover {
+    color: #f1523f;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .block--heading h1 {
+    font-size: 112px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  section {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-height: 600px) and (orientation: landscape) {
+  h5 {
+    margin: 5px 0 !important;
+    font-size: 14px !important;
+  }
+
+  h4 {
+    margin: 5px 0 !important;
+    font-size: 16px !important;
+  }
+
+  .date {
+    margin: 5px 0 !important;
+    font-size: 12px !important;
+  }
+}
+
+/*# sourceMappingURL=index.cb5506c0.css.map */

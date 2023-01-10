@@ -27111,30 +27111,218 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "App", ()=>App);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _components = require("./Components/LeftSide/Components");
-var _componentsDefault = parcelHelpers.interopDefault(_components);
-var _component = require("./Components/RightSide/Component");
-var _componentDefault = parcelHelpers.interopDefault(_component);
+var _profilePng = require("./asset/Images/Profile.png");
+var _profilePngDefault = parcelHelpers.interopDefault(_profilePng);
+var _educations = require("./Components/Educations");
+var _educationsDefault = parcelHelpers.interopDefault(_educations);
+var _experience = require("./Components/Experience");
+var _experienceDefault = parcelHelpers.interopDefault(_experience);
+var _imageCV = require("./Components/ImageCV");
+var _imageCVDefault = parcelHelpers.interopDefault(_imageCV);
+var _skills = require("./Components/Skills");
+var _skillsDefault = parcelHelpers.interopDefault(_skills);
+var _socialLinks = require("./Components/SocialLinks");
+var _socialLinksDefault = parcelHelpers.interopDefault(_socialLinks);
+var _works = require("./Components/Works");
+var _worksDefault = parcelHelpers.interopDefault(_works);
 function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "full",
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentsDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "block block--sm block--header",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "logo"
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 14,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                children: "Hamid Shokatinia"
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 15,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                                children: "Front End Developer (ReactJs)"
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 16,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 17,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _socialLinksDefault.default), {}, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 18,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/App.js",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _imageCVDefault.default), {
+                        Profile: (0, _profilePngDefault.default)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 7,
+                lineNumber: 12,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "block block--sm block--heading",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            children: [
+                                "Exp",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 26,
+                                    columnNumber: 13
+                                }, this),
+                                "eri",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 28,
+                                    columnNumber: 13
+                                }, this),
+                                "ence-"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/App.js",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 23,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _experienceDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 8,
+                lineNumber: 22,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                className: "reverse",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "block block--sm block--heading",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            children: "Skills-"
+                        }, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/App.js",
+                lineNumber: 34,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "block block--sm block--heading",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            children: [
+                                "Edu",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 44,
+                                    columnNumber: 13
+                                }, this),
+                                "cat",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 46,
+                                    columnNumber: 13
+                                }, this),
+                                "ion-"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/App.js",
+                            lineNumber: 42,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 41,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationsDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 50,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/App.js",
+                lineNumber: 40,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                className: "reverse",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "block block--sm block--heading",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            children: "Work-"
+                        }, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 54,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 53,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _worksDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 56,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/App.js",
+                lineNumber: 52,
                 columnNumber: 7
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "src/App.js",
-        lineNumber: 6,
-        columnNumber: 5
-    }, this);
+    }, void 0, true);
 }
 _c = App;
 var _c;
@@ -27145,141 +27333,189 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./Components/LeftSide/Components":"91tKz","./Components/RightSide/Component":"h681l","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"91tKz":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$22fa = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","./asset/Images/Profile.png":"4BlYD","./Components/SocialLinks":"3AjtG","./Components/ImageCV":"1Mb3R","./Components/Experience":"tyWyE","./Components/Skills":"65RL4","./Components/Educations":"7dfSg","./Components/Works":"49QXr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4BlYD":[function(require,module,exports) {
+module.exports = require("e39a228536aef83").getBundleURL("bLxZJ") + "Profile.e3795b13.png" + "?" + Date.now();
+
+},{"e39a228536aef83":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"3AjtG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$aeda = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$22fa.prelude(module);
+$parcel$ReactRefreshHelpers$aeda.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _contact = require("./contact");
-var _contactDefault = parcelHelpers.interopDefault(_contact);
-var _hobbis = require("./Hobbis");
-var _hobbisDefault = parcelHelpers.interopDefault(_hobbis);
-var _image = require("./image");
-var _imageDefault = parcelHelpers.interopDefault(_image);
-var _language = require("./Language");
-var _languageDefault = parcelHelpers.interopDefault(_language);
-var _skills = require("./Skills");
-var _skillsDefault = parcelHelpers.interopDefault(_skills);
-function LeftSide() {
+function SocialLinks() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "left",
+        className: "social-links",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _imageDefault.default), {}, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/index.jsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {
-                email: "Hamid.Shokatinia@gmail.com",
-                mobile: 989359827701
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                class: "text-white btn-floating",
+                href: "callto:+989359827701",
+                role: "button",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    className: "bi bi-telephone-fill",
+                    "aria-hidden": "true"
+                }, void 0, false, {
+                    fileName: "src/Components/SocialLinks/index.jsx",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/index.jsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/index.jsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _languageDefault.default), {}, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/index.jsx",
-                lineNumber: 16,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hobbisDefault.default), {}, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/index.jsx",
-                lineNumber: 17,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/LeftSide/Components/index.jsx",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
-}
-_c = LeftSide;
-exports.default = LeftSide;
-var _c;
-$RefreshReg$(_c, "LeftSide");
-
-  $parcel$ReactRefreshHelpers$22fa.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","./contact":"7EI8b","./Hobbis":"2DpyF","./image":"aKtHy","./Language":"in5Hs","./Skills":"bXoYZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7EI8b":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c1fc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c1fc.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Contact(props) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "Contact",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Contact"
-            }, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/contact/index.jsx",
+                fileName: "src/Components/SocialLinks/index.jsx",
                 lineNumber: 4,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                        children: "Email id:"
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/contact/index.jsx",
-                        lineNumber: 6,
-                        columnNumber: 9
-                    }, this),
-                    props.email
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/LeftSide/Components/contact/index.jsx",
-                lineNumber: 5,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                class: "text-white btn-floating",
+                href: "mailto:hamid.shokatinia@gmail.com",
+                role: "button",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    className: "bi bi-google",
+                    "aria-hidden": "true"
+                }, void 0, false, {
+                    fileName: "src/Components/SocialLinks/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/Components/SocialLinks/index.jsx",
+                lineNumber: 11,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                        children: "Mobile no :"
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/contact/index.jsx",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    }, this),
-                    props.mobile
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/LeftSide/Components/contact/index.jsx",
-                lineNumber: 8,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                class: "text-white btn-floating",
+                href: "https://t.me/adriftboy",
+                role: "button",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    className: "bi bi-telegram",
+                    "aria-hidden": "true"
+                }, void 0, false, {
+                    fileName: "src/Components/SocialLinks/index.jsx",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/Components/SocialLinks/index.jsx",
+                lineNumber: 18,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                class: "text-white btn-floating",
+                href: "https://linkedin.com/in/hamid-shokatinia-9b710419a",
+                role: "button",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    className: "bi bi-linkedin",
+                    "aria-hidden": "true"
+                }, void 0, false, {
+                    fileName: "src/Components/SocialLinks/index.jsx",
+                    lineNumber: 30,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/Components/SocialLinks/index.jsx",
+                lineNumber: 25,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                class: "text-white btn-floating",
+                href: "https://github.com/HamiD-shokatinia",
+                role: "button",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    className: "bi bi-github",
+                    "aria-hidden": "true"
+                }, void 0, false, {
+                    fileName: "src/Components/SocialLinks/index.jsx",
+                    lineNumber: 37,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/Components/SocialLinks/index.jsx",
+                lineNumber: 32,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                class: "text-white btn-floating",
+                href: "https://instagram.cam/adriftboy",
+                role: "button",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    className: "bi bi-instagram",
+                    "aria-hidden": "true"
+                }, void 0, false, {
+                    fileName: "src/Components/SocialLinks/index.jsx",
+                    lineNumber: 44,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/Components/SocialLinks/index.jsx",
+                lineNumber: 39,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                class: "text-white btn-floating",
+                href: "https://join.skype.com/invite/LGLcDmrGXdCR",
+                role: "button",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                    className: "bi bi-skype",
+                    "aria-hidden": "true"
+                }, void 0, false, {
+                    fileName: "src/Components/SocialLinks/index.jsx",
+                    lineNumber: 51,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/Components/SocialLinks/index.jsx",
+                lineNumber: 46,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "src/Components/LeftSide/Components/contact/index.jsx",
+        fileName: "src/Components/SocialLinks/index.jsx",
         lineNumber: 3,
         columnNumber: 5
     }, this);
 }
-_c = Contact;
-exports.default = Contact;
+_c = SocialLinks;
+exports.default = SocialLinks;
 var _c;
-$RefreshReg$(_c, "Contact");
+$RefreshReg$(_c, "SocialLinks");
 
-  $parcel$ReactRefreshHelpers$c1fc.postlude(module);
+  $parcel$ReactRefreshHelpers$aeda.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -27448,481 +27684,50 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"a2a224fab8c28837":"786KC"}],"2DpyF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f074 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"a2a224fab8c28837":"786KC"}],"1Mb3R":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2dad = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f074.prelude(module);
+$parcel$ReactRefreshHelpers$2dad.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Habbies() {
+function ImageCV(props) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "Hobbies",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Hobbies"
-            }, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/Hobbis/index.jsx",
-                lineNumber: 3,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "Playing cricket"
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/Hobbis/index.jsx",
-                        lineNumber: 5,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "Swimming"
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/Hobbis/index.jsx",
-                        lineNumber: 6,
-                        columnNumber: 7
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/LeftSide/Components/Hobbis/index.jsx",
-                lineNumber: 4,
-                columnNumber: 5
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/LeftSide/Components/Hobbis/index.jsx",
-        lineNumber: 2,
-        columnNumber: 15
-    }, this);
-}
-_c = Habbies;
-exports.default = Habbies;
-var _c;
-$RefreshReg$(_c, "Habbies");
-
-  $parcel$ReactRefreshHelpers$f074.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aKtHy":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0f93 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0f93.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function ProfileImg() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "image",
+        className: "block block--hero-image",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-            src: "../../../../../asset/Profile.png",
-            alt: "gfg-logo",
-            style: {
-                width: "100px",
-                height: "100px"
-            }
+            alt: "Profile-img",
+            width: 400,
+            height: "",
+            src: props.Profile
         }, void 0, false, {
-            fileName: "src/Components/LeftSide/Components/image/index.jsx",
-            lineNumber: 4,
-            columnNumber: 7
+            fileName: "src/Components/ImageCV/index.jsx",
+            lineNumber: 3,
+            columnNumber: 5
         }, this)
     }, void 0, false, {
-        fileName: "src/Components/LeftSide/Components/image/index.jsx",
-        lineNumber: 3,
-        columnNumber: 5
-    }, this);
-}
-_c = ProfileImg;
-exports.default = ProfileImg;
-var _c;
-$RefreshReg$(_c, "ProfileImg");
-
-  $parcel$ReactRefreshHelpers$0f93.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"in5Hs":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$7303 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7303.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Language() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "Language",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Language"
-            }, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/Language/index.jsx",
-                lineNumber: 3,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "Persian"
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/Language/index.jsx",
-                        lineNumber: 5,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "English"
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/Language/index.jsx",
-                        lineNumber: 6,
-                        columnNumber: 7
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/LeftSide/Components/Language/index.jsx",
-                lineNumber: 4,
-                columnNumber: 5
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/LeftSide/Components/Language/index.jsx",
+        fileName: "src/Components/ImageCV/index.jsx",
         lineNumber: 2,
         columnNumber: 15
     }, this);
 }
-_c = Language;
-exports.default = Language;
+_c = ImageCV;
+exports.default = ImageCV;
 var _c;
-$RefreshReg$(_c, "Language");
+$RefreshReg$(_c, "ImageCV");
 
-  $parcel$ReactRefreshHelpers$7303.postlude(module);
+  $parcel$ReactRefreshHelpers$2dad.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bXoYZ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$7beb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"tyWyE":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$395f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7beb.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Skills() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "Skills",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Skills"
-            }, void 0, false, {
-                fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-                lineNumber: 4,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                            children: "Programming Languages : Python, Java, C++"
-                        }, void 0, false, {
-                            fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-                            lineNumber: 7,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-                        lineNumber: 6,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                            children: "Frontend : HTML5, CSS3, JavaScript, React"
-                        }, void 0, false, {
-                            fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-                            lineNumber: 10,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                            children: "Backend : Node.js"
-                        }, void 0, false, {
-                            fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-                lineNumber: 5,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/LeftSide/Components/Skills/index.jsx",
-        lineNumber: 3,
-        columnNumber: 5
-    }, this);
-}
-_c = Skills;
-exports.default = Skills;
-var _c;
-$RefreshReg$(_c, "Skills");
-
-  $parcel$ReactRefreshHelpers$7beb.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h681l":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9ac9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9ac9.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _education = require("./Education");
-var _educationDefault = parcelHelpers.interopDefault(_education);
-var _experience = require("./Experience");
-var _experienceDefault = parcelHelpers.interopDefault(_experience);
-var _project = require("./Project");
-var _projectDefault = parcelHelpers.interopDefault(_project);
-var _summery = require("./Summery");
-var _summeryDefault = parcelHelpers.interopDefault(_summery);
-function RightSide() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "right",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "name",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "HamiD Shokatinia"
-                }, void 0, false, {
-                    fileName: "src/Components/RightSide/Component/index.jsx",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/index.jsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "title",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "React Js Developer"
-                }, void 0, false, {
-                    fileName: "src/Components/RightSide/Component/index.jsx",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/index.jsx",
-                lineNumber: 12,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _summeryDefault.default), {
-                text: `React Js developer with 3 years total experience, with 2 years in React Js Programming, develop with restful API
-and some experience with MUI,GIT & DevOps
-Experienced UI developer trained in HTML5, CSS3 and JavaScript.`
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/index.jsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _experienceDefault.default), {}, void 0, false, {
-                fileName: "src/Components/RightSide/Component/index.jsx",
-                lineNumber: 20,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
-                fileName: "src/Components/RightSide/Component/index.jsx",
-                lineNumber: 21,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectDefault.default), {}, void 0, false, {
-                fileName: "src/Components/RightSide/Component/index.jsx",
-                lineNumber: 22,
-                columnNumber: 6
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/RightSide/Component/index.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
-}
-_c = RightSide;
-exports.default = RightSide;
-var _c;
-$RefreshReg$(_c, "RightSide");
-
-  $parcel$ReactRefreshHelpers$9ac9.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","./Education":"hQXbF","./Experience":"5v2Fe","./Project":"lLlnt","./Summery":"9uhtC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hQXbF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$3254 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3254.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Education() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "Education",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Education"
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                lineNumber: 4,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                children: "University/college "
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 7,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                children: "Passing year "
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 8,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                children: "percentage/cgpa"
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 9,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                        lineNumber: 6,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: "xyz"
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: "2020"
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 13,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: "8.9"
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 14,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: "pqr"
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 17,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: "2018"
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: "89%"
-                            }, void 0, false, {
-                                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                                lineNumber: 19,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/RightSide/Component/Education/index.jsx",
-                lineNumber: 5,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/RightSide/Component/Education/index.jsx",
-        lineNumber: 3,
-        columnNumber: 5
-    }, this);
-}
-_c = Education;
-exports.default = Education;
-var _c;
-$RefreshReg$(_c, "Education");
-
-  $parcel$ReactRefreshHelpers$3254.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5v2Fe":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9d49 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9d49.prelude(module);
+$parcel$ReactRefreshHelpers$395f.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27930,97 +27735,89 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function Experience() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "Experience",
+        className: "block block--content block--experience",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Experience"
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/Experience/index.jsx",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "date",
+                        children: "2018 - 2019"
+                    }, void 0, false, {
+                        fileName: "src/Components/Experience/index.jsx",
+                        lineNumber: 5,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: "HTML CSS JavaScript"
+                    }, void 0, false, {
+                        fileName: "src/Components/Experience/index.jsx",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: "@ Sahand Novin Rayane"
+                    }, void 0, false, {
+                        fileName: "src/Components/Experience/index.jsx",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                        style: {
+                            width: 300
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Experience/index.jsx",
+                        lineNumber: 8,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Experience/index.jsx",
                 lineNumber: 4,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "Abc webdev pvt ltd - Senior Web Developer"
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                lineNumber: 5,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "January 2022 to Present"
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                lineNumber: 6,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "Actively engaged in web creative design and development."
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "date",
+                        children: "2020 - 2022"
                     }, void 0, false, {
-                        fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                        lineNumber: 8,
+                        fileName: "src/Components/Experience/index.jsx",
+                        lineNumber: 11,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "Designing project & planning"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: "ReactJs Developer"
                     }, void 0, false, {
-                        fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                        lineNumber: 9,
+                        fileName: "src/Components/Experience/index.jsx",
+                        lineNumber: 12,
                         columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                lineNumber: 7,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "Xyz webdev pvt ltd - junior web developer"
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "August 2021 to December 2021"
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                lineNumber: 12,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "Actively engaged in web creative design and development."
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: "@ ANAMAKA"
                     }, void 0, false, {
-                        fileName: "src/Components/RightSide/Component/Experience/index.jsx",
+                        fileName: "src/Components/Experience/index.jsx",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                        style: {
+                            width: 300
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Experience/index.jsx",
                         lineNumber: 14,
                         columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "Designing project & planning"
-                    }, void 0, false, {
-                        fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: "Working on designing"
-                    }, void 0, false, {
-                        fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                        lineNumber: 16,
-                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/Components/RightSide/Component/Experience/index.jsx",
-                lineNumber: 13,
+                fileName: "src/Components/Experience/index.jsx",
+                lineNumber: 10,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "src/Components/RightSide/Component/Experience/index.jsx",
+        fileName: "src/Components/Experience/index.jsx",
         lineNumber: 3,
         columnNumber: 5
     }, this);
@@ -28030,133 +27827,301 @@ exports.default = Experience;
 var _c;
 $RefreshReg$(_c, "Experience");
 
-  $parcel$ReactRefreshHelpers$9d49.postlude(module);
+  $parcel$ReactRefreshHelpers$395f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lLlnt":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$6de8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"65RL4":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f966 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$6de8.prelude(module);
+$parcel$ReactRefreshHelpers$f966.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Project() {
+function Skills() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "project",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            children: "Project1"
-                        }, void 0, false, {
-                            fileName: "src/Components/RightSide/Component/Project/index.jsx",
-                            lineNumber: 6,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "This project is based on html & used React"
-                        }, void 0, false, {
-                            fileName: "src/Components/RightSide/Component/Project/index.jsx",
-                            lineNumber: 7,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/RightSide/Component/Project/index.jsx",
-                    lineNumber: 5,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            children: "Project2"
-                        }, void 0, false, {
-                            fileName: "src/Components/RightSide/Component/Project/index.jsx",
-                            lineNumber: 10,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "This project is based on html & used React"
-                        }, void 0, false, {
-                            fileName: "src/Components/RightSide/Component/Project/index.jsx",
-                            lineNumber: 11,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/RightSide/Component/Project/index.jsx",
-                    lineNumber: 9,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/RightSide/Component/Project/index.jsx",
-            lineNumber: 4,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/Components/RightSide/Component/Project/index.jsx",
+        className: "block block--content block--skills",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: "Web development"
+                    }, void 0, false, {
+                        fileName: "src/Components/Skills/index.jsx",
+                        lineNumber: 5,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: [
+                            "HTML, CSS, Bootstrap, MUI & AntD,",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Skills/index.jsx",
+                                lineNumber: 7,
+                                columnNumber: 44
+                            }, this),
+                            " JavaScript, ReactJs, Git & GitHub, Redux, Axios, RESTAPI"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Skills/index.jsx",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                        style: {
+                            width: 550
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Skills/index.jsx",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Skills/index.jsx",
+                lineNumber: 4,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: "Soft Skills"
+                    }, void 0, false, {
+                        fileName: "src/Components/Skills/index.jsx",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: [
+                            "Problem Solver, Teamwork Spirit, Diligent, Scrum Developer,",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Skills/index.jsx",
+                                lineNumber: 15,
+                                columnNumber: 70
+                            }, this),
+                            " Familiar to DevOps, Familiar to Agile Delivery Methodology"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Skills/index.jsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                        style: {
+                            width: 550
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Skills/index.jsx",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Skills/index.jsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Skills/index.jsx",
         lineNumber: 3,
         columnNumber: 5
     }, this);
 }
-_c = Project;
-exports.default = Project;
+_c = Skills;
+exports.default = Skills;
 var _c;
-$RefreshReg$(_c, "Project");
+$RefreshReg$(_c, "Skills");
 
-  $parcel$ReactRefreshHelpers$6de8.postlude(module);
+  $parcel$ReactRefreshHelpers$f966.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9uhtC":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$6665 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7dfSg":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cc9c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$6665.prelude(module);
+$parcel$ReactRefreshHelpers$cc9c.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Summery({ text  }) {
+function Educations() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "Summary",
+        className: "block block--content block--education",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Summary"
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/Summery/index.jsx",
-                lineNumber: 3,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: text
-            }, void 0, false, {
-                fileName: "src/Components/RightSide/Component/Summery/index.jsx",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "date",
+                        children: "2013 - 2015"
+                    }, void 0, false, {
+                        fileName: "src/Components/Educations/index.jsx",
+                        lineNumber: 5,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: "Software technology engineering"
+                    }, void 0, false, {
+                        fileName: "src/Components/Educations/index.jsx",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: "ADIBAN Garmsar-Semnan-Iran"
+                    }, void 0, false, {
+                        fileName: "src/Components/Educations/index.jsx",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                        style: {
+                            width: 500
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Educations/index.jsx",
+                        lineNumber: 8,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Educations/index.jsx",
                 lineNumber: 4,
-                columnNumber: 5
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "date",
+                        children: "2011 - 2013"
+                    }, void 0, false, {
+                        fileName: "src/Components/Educations/index.jsx",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: "Software engineering"
+                    }, void 0, false, {
+                        fileName: "src/Components/Educations/index.jsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: "Azad University Dezful-Khozestan-Iran"
+                    }, void 0, false, {
+                        fileName: "src/Components/Educations/index.jsx",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                        style: {
+                            width: 500
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Educations/index.jsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Educations/index.jsx",
+                lineNumber: 10,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "src/Components/RightSide/Component/Summery/index.jsx",
-        lineNumber: 2,
-        columnNumber: 15
+        fileName: "src/Components/Educations/index.jsx",
+        lineNumber: 3,
+        columnNumber: 5
     }, this);
 }
-_c = Summery;
-exports.default = Summery;
+_c = Educations;
+exports.default = Educations;
 var _c;
-$RefreshReg$(_c, "Summery");
+$RefreshReg$(_c, "Educations");
 
-  $parcel$ReactRefreshHelpers$6665.postlude(module);
+  $parcel$ReactRefreshHelpers$cc9c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"49QXr":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f4a2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f4a2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Works() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "block block--content block--work",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "date",
+                    children: "2022 -2023"
+                }, void 0, false, {
+                    fileName: "src/Components/Works/index.jsx",
+                    lineNumber: 5,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        className: "work-link",
+                        href: "https://github.com/HamiD-Shokatinia?tab=repositories",
+                        children: "Portfolio"
+                    }, void 0, false, {
+                        fileName: "src/Components/Works/index.jsx",
+                        lineNumber: 7,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/Components/Works/index.jsx",
+                    lineNumber: 6,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                    children: "github"
+                }, void 0, false, {
+                    fileName: "src/Components/Works/index.jsx",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                    style: {
+                        width: 400
+                    }
+                }, void 0, false, {
+                    fileName: "src/Components/Works/index.jsx",
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Works/index.jsx",
+            lineNumber: 4,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/Components/Works/index.jsx",
+        lineNumber: 3,
+        columnNumber: 5
+    }, this);
+}
+_c = Works;
+exports.default = Works;
+var _c;
+$RefreshReg$(_c, "Works");
+
+  $parcel$ReactRefreshHelpers$f4a2.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
