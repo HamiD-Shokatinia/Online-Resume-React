@@ -27385,7 +27385,7 @@ function SocialLinks() {
         className: "social-links",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                class: "text-white btn-floating",
+                className: "text-white btn-floating",
                 href: "callto:+989359827701",
                 role: "button",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -27402,7 +27402,7 @@ function SocialLinks() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                class: "text-white btn-floating",
+                className: "text-white btn-floating",
                 href: "mailto:hamid.shokatinia@gmail.com",
                 role: "button",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -27419,7 +27419,7 @@ function SocialLinks() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                class: "text-white btn-floating",
+                className: "text-white btn-floating",
                 href: "https://t.me/adriftboy",
                 role: "button",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -27436,7 +27436,7 @@ function SocialLinks() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                class: "text-white btn-floating",
+                className: "text-white btn-floating",
                 href: "https://linkedin.com/in/hamid-shokatinia-9b710419a",
                 role: "button",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -27453,7 +27453,7 @@ function SocialLinks() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                class: "text-white btn-floating",
+                className: "text-white btn-floating",
                 href: "https://github.com/HamiD-shokatinia",
                 role: "button",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -27470,7 +27470,7 @@ function SocialLinks() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                class: "text-white btn-floating",
+                className: "text-white btn-floating",
                 href: "https://instagram.cam/adriftboy",
                 role: "button",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -27487,7 +27487,7 @@ function SocialLinks() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                class: "text-white btn-floating",
+                className: "text-white btn-floating",
                 href: "https://join.skype.com/invite/LGLcDmrGXdCR",
                 role: "button",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
@@ -28063,54 +28063,103 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function Works() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "block block--content block--work",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "date",
-                    children: "2022 -2023"
-                }, void 0, false, {
-                    fileName: "src/Components/Works/index.jsx",
-                    lineNumber: 5,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        className: "work-link",
-                        href: "https://github.com/HamiD-Shokatinia?tab=repositories",
-                        children: "Portfolio"
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "date",
+                        children: "2022 -2023"
                     }, void 0, false, {
                         fileName: "src/Components/Works/index.jsx",
-                        lineNumber: 7,
-                        columnNumber: 11
+                        lineNumber: 5,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            className: "work-link",
+                            href: "https://github.com/HamiD-Shokatinia?tab=repositories",
+                            children: "Portfolio"
+                        }, void 0, false, {
+                            fileName: "src/Components/Works/index.jsx",
+                            lineNumber: 7,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/Components/Works/index.jsx",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: "github"
+                    }, void 0, false, {
+                        fileName: "src/Components/Works/index.jsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                        style: {
+                            width: 400
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Works/index.jsx",
+                        lineNumber: 15,
+                        columnNumber: 9
                     }, this)
-                }, void 0, false, {
-                    fileName: "src/Components/Works/index.jsx",
-                    lineNumber: 6,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                    children: "github"
-                }, void 0, false, {
-                    fileName: "src/Components/Works/index.jsx",
-                    lineNumber: 14,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
-                    style: {
-                        width: 400
-                    }
-                }, void 0, false, {
-                    fileName: "src/Components/Works/index.jsx",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/Works/index.jsx",
-            lineNumber: 4,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Works/index.jsx",
+                lineNumber: 4,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "date",
+                        children: "2022 -2023"
+                    }, void 0, false, {
+                        fileName: "src/Components/Works/index.jsx",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            className: "work-link",
+                            href: "https://github.com/HamiD-Shokatinia?tab=repositories",
+                            children: "Pure JavaScript Methods"
+                        }, void 0, false, {
+                            fileName: "src/Components/Works/index.jsx",
+                            lineNumber: 20,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/Components/Works/index.jsx",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        children: "github Gist"
+                    }, void 0, false, {
+                        fileName: "src/Components/Works/index.jsx",
+                        lineNumber: 27,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                        style: {
+                            width: 400
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Works/index.jsx",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Works/index.jsx",
+                lineNumber: 17,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "src/Components/Works/index.jsx",
         lineNumber: 3,
         columnNumber: 5
